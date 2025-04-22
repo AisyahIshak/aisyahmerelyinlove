@@ -74,74 +74,30 @@
   </head>
 
   <body class="antialiased">
+    <audio class="fixed z-[2] bottom-[10px] right-0" id="myAudio" muted autoplay>
+      <source src="./assets/wedding-172018.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      
     <main>
-      <!-- Main navigation container -->
-      <nav class="navbar top-0 fixed bg-white sm:bg-transparent z-50 w-[100vw] hidden flexx flex-wrap items-center justify-between">
-        <div class="w-full px-0 lg:px-[10%] flex flex-wrap items-center justify-between">
-          <div
-            class="px-[5%] sm:px-[7%] lg:px-0 w-full relative flex items-center justify-between lg:w-auto lg:static lg:block lg:justify-start"
-          >
-            <a class="text-[12px] md:text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-              href="/"
-              >
-              <img class="w-[90%] mx-auto max-h-[35px] sm:max-h-[45px] sm:max-h-[50px] object-contain" src="./assets/img/logo.webp" alt="#AisyahMerelyinlove">
-            </a>
-            <a
-                href="#registration"
-                class="text-white text-white font-BorniaBold uppercase bg-[#FA5C1F] shadow-lg py-2 px-3 sm:px-8 text-[14px] sm:text-[14px] sm:text-[15px] xl:text-[17px] 3xl:text-[18px] h-fit btn-register block lg:hidden hover:opacity-75"
-                type="button"
-                style="transition: all 0.15s ease 0s;"
-              >
-                Register Now  
-            </a>
-            <button
-              class="hover:opacity-75 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onclick="toggleNavbar('example-collapse-navbar')"
-            >
-              <i class="text-black fas fa-bars"></i>
-            </button>
-          </div>
-          <div
-            class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
-            id="example-collapse-navbar"
-          >
-            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li class="flex items-center justify-center py-4 lg:py-0 lg:mr-8">
-                <a
-                  class="hover:opacity-75 text-black uppercase font-BorniaMedium text-[14px] sm:text-[15px] xl:text-[17px] 3xl:text-[18px]"
-                  href="#projects"
-                  >Participating Projects
-                </a>
-              </li>
-              <li class="flex items-center justify-center py-4 lg:py-0 lg:mr-8">
-                <a
-                  class="hover:opacity-75 text-black uppercase font-BorniaMedium text-[14px] sm:text-[15px] xl:text-[17px] 3xl:text-[18px]"
-                  href="#incentives"
-                  >Incentives
-                </a>
-              </li>
-              <li class="flex items-center justify-center py-4 lg:py-0 lg:mr-8">
-                <a
-                  class="hover:opacity-75 text-black uppercase font-BorniaMedium text-[14px] sm:text-[15px] xl:text-[17px] 3xl:text-[18px]"
-                  href="#perks"
-                  >LBS Perks
-                </a>
-              </li>
-              <li class="flex items-center hidden lg:flex">
-                <a
-                  href="#registration"
-                  class="hover:opacity-75 text-white font-BorniaBold uppercase bg-[#FA5C1F] shadow-lg py-2 px-8 text-[14px] sm:text-[15px] xl:text-[17px] 3xl:text-[18px] flex justify-center items-center btn-register"
-                  type="button"
-                  style="transition: all 0.15s ease 0s;"
-                >
-                  Register Now              
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div class="fixed right-[10px] bottom-[10px] z-[3] flex gap-2 sm:gap-4">
+        <button class="w-[25px] sm:w-[50px] h-[25px] sm:h-[50px] flex items-center justify-center rounded-full bg-[#2A1800] text-white z-[2]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pause w-[15px] sm:w-[20px]"  style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+          </svg>          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="play w-[15px] sm:w-[20px]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+          </svg>                  
+        </button>
+        <button class="w-[25px] sm:w-[50px] h-[25px] sm:h-[50px] flex items-center justify-center rounded-full bg-[#2A1800] text-white z-[2]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="unmute w-[20px]" style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+          </svg>   
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mute w-[20px]" >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6 4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+          </svg>                   
+        </button>
+      </div>
 
       <section class="bg-[url('./assets/img/stone-texture.jpg')] bg-cover bg-top relative h-screen overflow-hidden flex items-center justify-center bg-fixed">
         <img class="fixed w-[75%] sm:w-[35%] left-[-20%] sm:left-[-10%] top-[-20%] opacity-30" src="./assets/img/flower.png" alt="">
@@ -254,7 +210,7 @@
           </a>
         </div>
       </section>
-      <div class="bg-[#840006] py-[20px] text-center">
+      <div class="bg-[#840006] pt-[20px] pb-[40px] sm:pt-[20px] sm:pb-[20px] text-center">
         <p class="font-quicksand text-white tracking-[3px] text-[10px]">
           Copyright
           &copy;
@@ -282,466 +238,42 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
   </body>
-  <script>
-    function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
-  </script>
+
    <script type="text/javascript">
-    $(document).ready(function () {
-      var navbar = $(".navbar");
-      var scrollOffset = navbar.offset().top;
+$(document).ready(function () {
+  const audio = $('#myAudio')[0];
 
-      $(window).scroll(function() {
-        if ($(window).scrollTop() >= scrollOffset) {
-          navbar.addClass("scrolled");
-        } else {
-          navbar.removeClass("scrolled");
-        }
-        
-        // Add this condition to make the navbar transparent at the top
-        if ($(window).scrollTop() === 0) {
-          navbar.css("background-color", "#ffffff00");
-        } else {
-          navbar.css("background-color", ""); // Reset to default (or set your desired background color)
-        }
-      });
-    });
-  </script>
+  // Set to autoplay muted
+  audio.play();
 
-<script>
-  var input = document.querySelector("#phone");
-  var iti = window.intlTelInput(input, {
-    separateDialCode: true,
-    preferredCountries: ["my", "sg"],
+  // Allow user to unmute and control playback
+  $('.pause').parent().on('click', function () {
+    if (audio.paused) {
+      audio.play();
+      $('.play').hide();
+      $('.pause').show();
+    } else {
+      audio.pause();
+      $('.pause').hide();
+      $('.play').show();
+    }
   });
 
-  // Update the placeholder dynamically when the country is selected
-  //input.addEventListener("countrychange", function() {
-  //  var countryData = iti.getSelectedCountryData();
-  //  input.setAttribute("placeholder", "+" + countryData.dialCode);
-  //});
- </script>
-
-  <script type="text/javascript">
-     function toggleContent(isViewMore) {
-          $('.loadmorecontainer').toggleClass('hidden', !isViewMore).toggle(isViewMore);
-          $('.img1, .img2').toggle(!isViewMore);
-          $('#loadmorebtn').toggle(!isViewMore);
-          $('#seelessbtn').toggle(isViewMore);
-          $('.banner-slider').trigger('refresh.owl.carousel');
-
-        }
-
-        function toggleContent2(isViewMore2) {
-          $('.loadmorecontainer2').toggleClass('hidden', !isViewMore2).toggle(isViewMore2);
-          $('#loadmorebtn2').toggle(!isViewMore2);
-          $('#seelessbtn2').toggle(isViewMore2);
-          $('.banner-slider').trigger('refresh.owl.carousel');
-
-        }
-
-        function toggleContent3(isViewMore3) {
-          $('.loadmorecontainer3').toggleClass('hidden', !isViewMore3).toggle(isViewMore3);
-          $('.img3, .img4').toggle(!isViewMore3);
-          $('#loadmorebtn3').toggle(!isViewMore3);
-          $('#seelessbtn3').toggle(isViewMore3);
-          $('.banner-slider').trigger('refresh.owl.carousel');
-
-        }
-
-        // Attach the click event listeners to the buttons
-        $('#loadmorebtn').click(() => toggleContent(true)); // Show more content
-        $('#seelessbtn').click(() => toggleContent(false)); // Show less content
-        $('#loadmorebtn2').click(() => toggleContent2(true)); // Show more content
-        $('#seelessbtn2').click(() => toggleContent2(false)); // Show less content
-        $('#loadmorebtn3').click(() => toggleContent3(true)); // Show more content
-        $('#seelessbtn3').click(() => toggleContent3(false)); // Show less content
-
-        $(document).on("click", '.anchor-card', function(){
-            $('#project').val($(this).data('project')).trigger('change');
-        });
-        $(document).ready(function () {  
-
-          $('.usp-slider').owlCarousel({
-            loop: false,
-            items: 1,
-            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-            nav: true,
-            autoplay: false,
-            dots: false,
-            dotsEach:true,
-            smartSpeed: 1500,
-            responsiveClass: true,
-            responsive: {
-              0: {
-                margin: 30,
-                items:1,
-                autoHeight:true,
-              },
-              768: {
-                margin: 30,
-                items:3,
-              },
-              1024: {
-                margin: 30,
-                items:6,
-                touchDrag:false,
-                mouseDrag:false
-              }
-            },
-          });
-          $('.perks-slider').owlCarousel({
-            loop: false,
-            items: 1,
-            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-            nav: true,
-            autoplay: true,
-            dots: true,
-            dotsEach:true,
-            smartSpeed: 1500,
-            responsiveClass: true,
-            responsive: {
-              0: {
-                margin: 30,
-                items:1,
-              },
-              768: {
-                margin: 30,
-                items:2,
-              },
-              1024: {
-                margin: 20,
-                items:4,
-              }
-            },
-          });
-          $('.banner-slider').owlCarousel({
-            loop: false,
-            items: 1,
-            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-            nav: false,
-            autoplay: false,
-            dots: true,
-            dotsEach: true,
-            dotsEach:true,
-            smartSpeed: 1500,
-            responsiveClass: true,
-            autoHeight:true,
-            responsive: {
-              0: {
-                margin: 30,
-                items:1,
-              },
-              768: {
-                margin: 30,
-                items:2,
-                stagePadding:200,
-              },
-              1024: {
-                margin: 20,
-                items:2,
-                stagePadding:300,
-              }
-            },
-          });
-        });
-
-
-        var url_string = window.location.href;
-    var url = new URL(url_string);
-    var sourceType = url.searchParams.get("s");
-    $('#source_param').attr('value',sourceType)
-    const urlSearchParams = new URLSearchParams(window.location.search);
-    const params = Object.fromEntries(urlSearchParams.entries());
-
-    const filtered = Object.keys(params)
-            .filter(key => key.startsWith("utm_"))
-            .reduce((obj, key) => {
-                obj[key] = params[key];
-                return obj;
-            }, {});
-
-    var utm_medium = filtered.utm_medium ?? null;
-    var utm_source = filtered.utm_source ?? null;
-    var utm_content = filtered.utm_content ?? null;
-    var utm_campaign = filtered.utm_campaign ?? null;
-    var utm_term = filtered.utm_term ?? null;
-
-    function projectToSFParam(project) {
-      switch (project) {
-          case 'BSP Sutera (Apartment)':
-              return 'BSPSutera';
-              break;
-          case 'BSP Sutera (Apartment)':
-              return 'BSPSutera';
-              break;
-          default:
-              return project;
-              break;
-      }
+  $('.unmute').parent().on('click', function () {
+    if (audio.muted) {
+      audio.muted = false;
+      $('.mute').hide();
+      $('.unmute').show();
+    } else {
+      audio.muted = true;
+      $('.unmute').hide();
+      $('.mute').show();
     }
+  });
+});
 
-    $('#registration-form').submit(function (event){
-      if ($("#registration-form")[0].checkValidity() === false) {
-        event.stopPropagation();
-      } else {
-        $('.progress-bar').fadeIn('slow');
-        $('#register_btn').attr('disabled', true);
-      }
-    });
 
-    $('#registration-form').submit(function(event){
-        event.preventDefault();
-
-        if ($('#registration-form')[0].checkValidity() === false) {
-            event.stopPropagation();
-        } else {  
-            var nexcrmlog;
-            var dblog;
-            var source_param = $('#source_param').val(); 
-            var name = $('#name').val();
-            var email = $('#email').val();
-            var phone = $('#phone').val(); 
-            var project = $('#project').val(); 
-
-            let payload = {
-                "name" : name,
-                "email" : email,
-                "phone" : phone, 
-                "preferred_project" : project,
-                "source" : sourceType,
-                "utm_sources" : Object.keys(filtered).length ? JSON.stringify(filtered) : null,
-            };
-
-            let token;
-
-            switch(utm_source){
-              case 'facebook':
-                token = '0eb784d8e647ce0cfbe39465343dc936';
-                break;
-              case 'tiktok':
-                token = '25a974e618925d0d16fcb402fdb41418';
-                break;
-              case 'googlediscovery':
-                token = 'bf4fe4765b62d391d406d0aaf6fa05ed';
-                break;
-              case 'googlesearch':
-                token = 'dbccd9fb7d6e286aea90addede3ee058';
-                break;
-              default:
-                token = 'b1ddd6c4615e5ffcf16eeaae6a46ea1a';
-            }
-
-            let crm_token;
-
-            let user_tag;
-
-            switch(project){
-              case 'KitaBestariTownhouse':
-                user_tag = '1bfeffef17d87d1a3a47dc4759920ca2';
-                crm_token = 'df24a59cce053521eb32e1e0a2b7454d';
-                break;
-              case 'ImperialGarden':
-                user_tag = 'a9b98c41d5abbb6dadeae58731b3b889';
-                crm_token = 'd83bcfaf9967aaa2b70d962abda87968';
-                break;
-              case 'TamanKindingFlora':
-                user_tag = '8daaea83bff3f27a56896322778fc07a';
-                crm_token = 'fa302da7628dd486543f697d766426ad';
-                break;
-              case 'Skyria':
-                user_tag = '1967f762ced99150b507a3d7d74e112f';
-                crm_token = 'd8119a0b318eb64707f6d880bc23fde9';
-                break;
-              case 'KitaSejati':
-                user_tag = '0afd9460315251d307bfb1800598b589';
-                crm_token = '3220008b12c5ae7725ae0aaf3f44f20f';
-                break;
-              case 'PrestigeResidence':
-                user_tag = 'c6d8ca0336f8cd5822262d052e75a6a9';
-                crm_token = '3c0835892b8430386f4f1145917d281c';
-                break;
-              case 'Astella':
-                user_tag = 'c4dca55c68bf3b990e087731e58869c3';
-                crm_token = 'e007076bc026b80095951067bd0dd696';
-                break;
-              case 'BayuHills':
-                user_tag = '8231c7092c45117cf9a16ae513496769';
-                break;
-              case 'BSP Sutera (Apartment)':
-                user_tag = 'ca1a74e63998ae5b484e77bd3fff3bde';
-                crm_token = '4bd76f24dca43dcbd7ea036e79762dc2';
-                break;
-              case 'BSP Sutera (Townhouse)':
-                user_tag = 'ca1a74e63998ae5b484e77bd3fff3bde';
-                crm_token = '0288c21aad3c258cdb45270938b4e92d';
-                break;
-            }
-
-            $.ajax({
-              type: "POST",
-              url: "https://www.nexcrmapis.com/cloud/toolbox/api_setNewWebLead?cs_token=dfaa9b10fe02e4215bbbadeb128f95ba&secret_key=d61f1a7a9c89aa6d29ae71da40409504&task=setNewWebLead",
-              data: {
-                token : crm_token,
-                user_tag,
-                name,
-                email,
-                contact: phone,
-                6714: project,
-                ...filtered
-              },
-              success: function (response) {
-                console.log(response);
-                nexcrmlog = '[NEXCRM][' + new Date() + ']:' + JSON.stringify(payload) + '- Success' + response
-                console.log(nexcrmlog)
-                writefilelog(nexcrmlog, dblog)
-              },
-              error: function (response) {
-                console.log('Error:', response);
-                nexcrmlog = '[NEXCRM][' + new Date() + ']:' + JSON.stringify(payload) + '- Error' + response
-                console.log(nexcrmlog)
-                writefilelog(nexcrmlog, dblog)
-              }
-            });
-
-            $.ajax({
-                type: "POST",
-                //url: "https://tr1s4apb2l.execute-api.ap-southeast-1.amazonaws.com/dev/lbs-fabulous/contacts", //staging API
-                url: "https://52a9oejvjd.execute-api.ap-southeast-1.amazonaws.com/prod/lbs-fabulous/contacts ",
-                contentType: 'application/json',
-                data: JSON.stringify(payload),
-                success: function(res){
-                    dblog = '[DS]['+ new Date() + ']:' + '- Success' + JSON.stringify(res)
-                    writefilelog(nexcrmlog, dblog) 
-                    window.location.href = 'thankyou.html';
-                },
-                error: function(jq, text, error){
-                  console.log(error);
-                  console.log('[DS]['+ new Date() + ']:' + JSON.stringify(payload) + '- Error' + JSON.stringify(error))
-                  dblog = '[DS]['+ new Date() + ']:' + JSON.stringify(payload) + '- Error' + JSON.stringify(error)
-                  writefilelog(nexcrmlog, dblog) 
-                }
-            });
-        }
-    });
   </script>
 
 </html>
 
-<script>
-
-let code;
-  switch(utm_source){
-      case 'meta':
-          code = '[META]';
-      break;
-      case 'facebook':
-          code = '[META]';
-      break;
-      case 'google':
-      switch(utm_medium){
-          case 'cpc':
-          switch(utm_campaign){
-              case 'brand':
-                  code = utm_term ? `[CBRD - ${utm_term}]` : '[CBRD]';
-              break;
-              case 'location':
-                  code = utm_term ? `[CLOC - ${utm_term}]` : '[CLOC]';
-              break;
-              case 'competitor':
-                  code = utm_term ? `[CCOMP - ${utm_term}]` : '[CCOMP]';
-              break;
-              case 'intent':
-                  code = utm_term ? `[CINT - ${utm_term}]` : '[CINT]';
-              break;
-              }
-          break;
-          case 'search':
-          switch(utm_campaign){
-              case 'brand':
-                  code = utm_term ? `[SBRD - ${utm_term}]` : '[SBRD]';
-              break;
-              case 'location':
-                  code = utm_term ? `[SLOC - ${utm_term}]` : '[SLOC]';
-              break;
-              case 'competitor':
-                  code = utm_term ? `[SCOMP - ${utm_term}]` : '[SCOMP]';
-              break;
-              case 'intent':
-                  code = utm_term ? `[SINT - ${utm_term}]` : '[SINT]';
-              break;
-          }
-          break;
-          case 'discovery':
-          switch(utm_campaign){
-              case 'brand':
-                  code = utm_term ? `[DISBRD - ${utm_term}]` : '[DISBRD]';
-              break;
-              case 'location':
-                  code = utm_term ? `[DISLOC - ${utm_term}]` : '[DISLOC]';
-              break;
-              case 'competitor':
-                  code = utm_term ? `[DISCOMP - ${utm_term}]` : '[DISCOMP]';
-              break;
-              case 'intent':
-                  code = utm_term ? `[DISINT - ${utm_term}]` : '[DISINT]';
-              break;
-          }      
-          break;
-          case 'pmax':
-          switch(utm_campaign){
-              case 'brand':
-                  code = utm_term ? `[PMBRD - ${utm_term}]` : '[PMBRD]';
-              break;
-              case 'location':
-                  code = utm_term ? `[PMLOC - ${utm_term}]` : '[PMLOC]';
-              break;
-              case 'competitor':
-                  code = utm_term ? `[PMCOMP - ${utm_term}]` : '[PMCOMP]';
-              break;
-              case 'intent':
-                  code = utm_term ? `[PMINT - ${utm_term}]` : '[PMINT]';
-              break;
-          }
-          break;
-      }
-      break;
-      case 'tiktok':
-          code = '[TIKTOK]';
-      break;
-      default:
-          code = '';
-
-  }
-
-$('#whatsapp-btn').on('click', function(event){
-
-    var contact =  "60133665934";
-
-    var text = code+" Hi, I am interested in LBS Bina Group and would like to know more about the project. Thank you";
-    window.open("https://wa.me/"+contact+"?text="+text, "_blank");
-
-});
-</script>
-
-<script>
-  function writefilelog(nexcrmlog, dblog){
-  $.ajax({
-      type: 'POST',
-      url: 'write.php', 
-      data: {
-              nexcrmlog: nexcrmlog,
-              dblog: dblog           
-              },
-      //   async: false,
-      success: function(res) { 
-          console.log('success write file');
-      },
-      error: function() {
-          console.log('error write file');
-      },
-      });
-  }
-</script>
