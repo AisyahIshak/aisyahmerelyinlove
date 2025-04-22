@@ -1,0 +1,632 @@
+{
+    "projects": [
+        {
+            "id": "astella",
+            "name": "Astella @ D'Island Residence",
+            "image": "assets/img/products/astella2.jpg",
+            "location": "Puchong",
+            "bedroom": "4 Bedrooms",
+            "size": "20' x 70'",
+            "price_monthly": "RM 3,600",
+            "price_from": "RM 909,000*",
+            "bumi": "7",
+            "type": "landed",
+            "show_features": true,
+            "button_id": {
+                "features": "astella_ft",
+                "register_now": "astella_register_now",
+                "dataProject": "Astella"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "20' x 70'"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "4 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "Live in serenity surrounded by a 1,000-acre lake"
+                },
+                {
+                    "icon": "assets/img/icons/icon-train.svg",
+                    "description": "Near Monash University, Sunway University, Taylor's University Lakeside Campus, Segi College"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Near Sunway Pyramid Shopping Mall, IOI Mall Giant Hypermarket, Sunway Medical, Columbia Asia Hospital"
+                }
+            ]
+        },
+        {
+            "id": "prestige_residence",
+            "name": "Prestige Residence",
+            "image": "assets/img/products/lbs-prestige.jpg",
+            "location": "Seri Kembangan",
+            "bedroom": "3 Bedrooms",
+            "size": "From 800 sqft",
+            "price_monthly": "RM 1,600*",
+            "price_from": "RM 396,810*",
+            "bumi": "10",
+            "type": "highrise",
+            "show_features": true,
+            "button_id": {
+                "features": "prestige_ft",
+                "register_now": "prestige_register_now",
+                "dataProject": "PrestigeResidence"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                },
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                }
+            ],
+            
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "From 800 sqft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "3 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "1/2 Basketball Court, Badminton Court, Futsal Court, Gym, Multipurpose Hall, Swimming Pool, Playground and many more!"
+                },
+                {
+                    "icon": "assets/img/icons/icon-train.svg",
+                    "description": "Easy accessibility to major highways such as Bukit Jalil Highway, SBE Highway, MEX Highway, SKVE Highway, LDP Highway, MRR2 Highway, Kesas Highway & PLUS Highway."
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Near MRT Station Putra Permai & Taman Equine"
+                }
+            ]
+        },
+        {
+            "id": "skyria",
+            "name": "SkyRia @ D'Island Residence",
+            "image": "assets/img/products/skyria.jpg",
+            "location": "Puchong",
+            "bedroom": "2-3 Bedrooms",
+            "size": "600 - 900 sqft",
+            "type": "highrise",
+            "price_monthly": "RM 1,700",
+            "price_from": "RM 478,000*",
+            "bumi": "10",
+            "show_features": true,
+            "button_id": {
+                "features": "Skyria_ft",
+                "register_now": "Skyria_register_now",
+                "dataProject": "Skyria"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-topregistered-new.svg",
+                    "title": "Top Registered"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "600 - 900 sqft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "2-3 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "4km Lotus's Bukit Puchong, 5km Aeon Big Puchong Utama, 10km Jaya Grocer IOI Rio City, 13km to IOI Mall, 17km to Sunway Pyramid, 18km to Pavilion Bukit Jalil"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "9km to Cyberjaya Hospital, 9km to KPMC Puchong, 10km to Columbia Asia Hospital, 15km to Sunway Medical Centre, 15km to Hospital Putrajaya"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "3km to SJK(C) Sin Ming, 5km to SK Puchong Utama 1&2, 11km to Binary University College, 13km to Limkokwing University, 16km to Sunway University, 16km to Taylor's University Lakeside Campus "
+                }
+            ]
+        },
+        {
+            "id": "bayu_hills",
+            "name": "Bayu Hills",
+            "image": "assets/img/products/bayu-hills.jpg",
+            "location": "Rimbawan @ Genting Highlands",
+            "bedroom": "2-4 Bedrooms",
+            "size": "500 - 1,067 sqft",
+            "type": "highrise",
+            "price_monthly": "RM 1,800*",
+            "price_from": "RM 477,000*",
+            "bumi": "5",
+            "show_features": true,
+            "button_id": {
+                "features": "bayuhills_ft",
+                "register_now": "bayuhills_register_now",
+                "dataProject": "BayuHills"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-topregistered-new.svg",
+                    "title": "Top Registered"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "500 - 1,067 sq.ft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "Up to 4 Bedrooms, 3 Bathrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Sky Lounge, Flamingo Beach, Star Gazing Lounge, and many more!"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "7km to Awana Skyway Station, 8km to Awana Genting Highlands Golf Course"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "11km to Chin Swee Temple, 14km to Amphitheatre Arena of Stars "
+                }
+            ]
+        },
+        {
+            "id": "centrum_iris",
+            "name": "Centrum Iris",
+            "image": "assets/img/products/centrum-iris.png",
+            "location": "Brinchang, Cameron Highlands",
+            "bedroom": "2-4 Bedrooms",
+            "size": "595 - 1,370 sqft",
+            "type": "highrise",
+            "price_monthly": "RM 1,700*",
+            "price_from": "RM 456,000*",
+            "bumi": "5",
+            "show_features": true,
+            "button_id": {
+                "features": "centrumiris_ft",
+                "register_now": "centrumiris_register_now",
+                "dataProject": "Centrum Iris"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-topregistered-new.svg",
+                    "title": "Top Registered"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "595 - 1,370 sq.ft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "2 - 4 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "Heated Pool, tea garden, games lounge, sky yoga room, rooftop co-working space, gym, playground and many more!"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "100m to Cameron Centrum, 1.6km to Cactus Valley, 1.7km to Big Red Strawberry Farm"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "2.3km to Cameron Highlands Golf Course, 3km to Golden Hills Night Market, 6.8km to Hospital Sultanah Hajjah Kalsom"
+                }
+            ]
+        },
+        {
+            "id": "imperial_garden",
+            "name": "Imperial Garden",
+            "image": "assets/img/products/imperialgarden.jpg",
+            "location": "Batu Pahat, Johor",
+            "bedroom": "4 Bedrooms",
+            "size": "40' x 80'",
+            "type": "landed",
+            "price_monthly": "RM 2,300",
+            "price_from": "RM 575,280*",
+            "bumi": "15",
+            "show_features": true,
+            "button_id": {
+                "features": "imperialgarden_ft",
+                "register_now": "imperialgarden_register_now",
+                "dataProject": "ImperialGarden"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-topregistered-new.svg",
+                    "title": "Top Registered"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "40' x 80'"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "4 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Balcony + Connecting Side Garden"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "5km radius near to recreational parks, schools, healthcare and shopping malls."
+                }
+            ]
+        },
+        {
+            "id": "taman_kinding_flora",
+            "name": "Taman Kinding Flora",
+            "image": "assets/img/products/kinding.jpg",
+            "location": "Ipoh, Perak",
+            "bedroom": "4 Bedrooms",
+            "size": "20' x 70'",
+            "type": "landed",
+            "price_monthly": "RM 1,300",
+            "price_from": "RM 290,000*",
+            "bumi": "5",
+            "show_features": true,
+            "button_id": {
+                "features": "kinding_ft",
+                "register_now": "kinding_register_now",
+                "dataProject": "TamanKindingFlora"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-topregistered-new.svg",
+                    "title": "Top Registered"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "20' x 70'"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "4 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Gym, Playground, Jogging and Bicycle Track, Football Field, and many more!"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Ipoh Railway Station and Ipoh Airport are about 22km and 25km away."
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Near to Chemor Health Clinic, Aeon Mall Ipoh Klebang and Sunway Lost World of Tambun."
+                }
+            ]
+        },
+        {
+            "id": "kita_sejati",
+            "name": "Kita Sejati",
+            "image": "assets/img/products/kita-sejati.jpg",
+            "location": "CyberSouth",
+            "bedroom": "3 Bedrooms",
+            "size": "850 sqft",
+            "price_monthly": "RM 1,100",
+            "price_from": "RM399,800*",
+            "type": "highrise",
+            "show_features": true,
+            "button_id": {
+                "features": "kita_sejati_ft",
+                "register_now": "KitaSejati_register_now",
+                "dataProject": "KitaSejati"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                },
+                {
+                    "icon": "assets/img/top-registered.png",
+                    "title": "Top Registered"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "850 sqft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "3 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "Futsal court, kindergarten, gym, kids playground, swimming pool, and many more!"
+                },
+                {
+                    "icon": "assets/img/icons/icon-train.svg",
+                    "description": "1.4km to UiTM Dengkil Campus, 2.5km to Putrajaya, 5km to Heriot-Watt Campus, 6.9km to SMK Dengkil, 7.1km to SK Dengkil, 7.5KM to Multimedia University"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "8.6km to Hospital Putrajaya, 13.5km to Bukit Unggul Country Club, 14.3km to AEON Big, 18km to IOI City Mall, 22.5km to KLIA/KLIA 2"
+                }
+            ]
+        },
+        {
+            "id": "kita_bestari_th",
+            "name": "Kita Bestari (Townhouse)",
+            "image": "assets/img/products/kitabestari-townhouse.jpg",
+            "location": "CyberSouth",
+            "bedroom": "3 Bedrooms",
+            "size": "22' x 75'",
+            "price_monthly": "RM 1,800",
+            "type": "landed",
+            "price_from": "RM 459,900*",
+            "show_features": true,
+            "button_id": {
+                "features": "kita_bestari_th_ft",
+                "register_now": "KitaBestariTownhouse_register_now",
+                "dataProject": "KitaBestariTownhouse"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-topregistered-new.svg",
+                    "title": "Top Registered"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "22' x 75'"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "3 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "Futsal court, kindergarten, kids playground, and many more!"
+                },
+                {
+                    "icon": "assets/img/icons/icon-train.svg",
+                    "description": "1.4km to UiTM Dengkil Campus, 2.5km to Putrajaya, 5km to Heriot-Watt Campus, 6.9km to SMK Dengkil, 7.1km to SK Dengkil, 7.5KM to Multimedia University"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "8.6km to Hospital Putrajaya, 13.5km to Bukit Unggul Country Club, 14.3km to AEON Big, 18km to IOI City Mall, 22.5km to KLIA/KLIA 2"
+                }
+            ]
+        },
+        {
+            "id": "bsp_sutera_Townhouse",
+            "name": "BSP Sutera (Townhouse)",
+            "image": "assets/img/products/sutera3.jpg",
+            "location": "Bandar Saujana Putra",
+            "bedroom": "3 Bedrooms",
+            "size": "22' x 75'",
+            "price_monthly": "RM 2,000",
+            "price_from": "RM 482,000*",
+            "bumi": "7",
+            "type": "landed",
+            "show_features": true,
+            "button_id": {
+                "features": "SuteraTownhouse_features",
+                "register_now": "SuteraTownhouse_register_now",
+                "dataProject": "BSP Sutera (Townhouse)"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "22' x 75'"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "3 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "Live in serenity surrounded by a 1,000-acre lake"
+                },
+                {
+                    "icon": "assets/img/icons/icon-train.svg",
+                    "description": "Near Monash University, Sunway University, Taylor's University Lakeside Campus, Segi College"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Near Sunway Pyramid Shopping Mall, IOI Mall Giant Hypermarket, Sunway Medical, Columbia Asia Hospital"
+                }
+            ]
+        },
+        {
+            "id": "bsp_sutera_Apartment",
+            "name": "BSP Sutera (Apartment)",
+            "image": "assets/img/products/sutera2.jpg",
+            "location": "Bandar Saujana Putra",
+            "bedroom": "3 Bedrooms",
+            "size": "From 850 sqft",
+            "price_monthly": "RM 1,600",
+            "price_from": "RM 476,000*",
+            "bumi": "7",
+            "type": "highrise",
+            "show_features": true,
+            "button_id": {
+                "features": "SuteraApartment_features",
+                "register_now": "SuteraApartment_register_now",
+                "dataProject": "BSP Sutera (Apartment)"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "From 850 sqft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-bed.svg",
+                    "description": "3 Bedrooms"
+                },
+                {
+                    "icon": "assets/img/icons/icon-swimming.svg",
+                    "description": "Live in serenity surrounded by a 1,000-acre lake"
+                },
+                {
+                    "icon": "assets/img/icons/icon-train.svg",
+                    "description": "Near Monash University, Sunway University, Taylor's University Lakeside Campus, Segi College"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Near Sunway Pyramid Shopping Mall, IOI Mall Giant Hypermarket, Sunway Medical, Columbia Asia Hospital"
+                }
+            ]
+        },
+        {
+            "id": "apip_semid",
+            "name": "Alam Perdana Industrial Park <br> (3-Storey Semi-D Factory)",
+            "image": "assets/img/products/apip-semi.png",
+            "location": "Puncak Alam",
+            "bedroom": "",
+            "size": "6,003 sqft",
+            "price_from": "RM 3.7mil*",
+            "type": "commercial",
+            "show_features": true,
+            "button_id": {
+                "features": "APIPSemi_features",
+                "register_now": "APIPSemi_register_now",
+                "dataProject": "APIP - 3-Storey Semi D Factory"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "6,003 sqft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Direct access to DASH Highway, 24KM to Subang Airport, 30KM to Petaling Jaya, 32KM to Shah Alam, 36KM to Kuala Lumpur, 37KM to Port Klang"
+                },
+                {
+                    "icon": "assets/img/icons/icon-ev.svg",
+                    "description": "AC Cable for Solar PV system, LED Street Light, Rainwater Harvesting System, EV Charger and more sustainable features!"
+                }
+                
+            ]
+        },
+        {
+            "id": "apip_terrace",
+            "name": "Alam Perdana Industrial Park <br> (2-Storey Terrace Factory)",
+            "image": "assets/img/products/apip-terrace.png",
+            "location": "Puncak Alam",
+            "bedroom": "",
+            "size": "3,093 sqft",
+            "price_monthly": "",
+            "price_from": "RM 2.05mil*",
+            "type": "commercial",
+            "show_features": true,
+            "button_id": {
+                "features": "APIPTerrace_features",
+                "register_now": "APIPTerrace_register_now",
+                "dataProject": "APIP - 2-Storey Terrace Factory"
+            },
+            "tags": [
+                {
+                    "icon": "assets/img/icons/icon-newlaunch-new.svg",
+                    "title": "New Launch"
+                },
+                {
+                    "icon": "assets/img/icons/icon-sellingfast-new.svg",
+                    "title": "Selling Fast"
+                }
+            ],
+            "features": [
+                {
+                    "icon": "assets/img/icons/icon-size.svg",
+                    "description": "3,093 sqft"
+                },
+                {
+                    "icon": "assets/img/icons/icon-building.svg",
+                    "description": "Direct access to DASH Highway, 24KM to Subang Airport, 30KM to Petaling Jaya, 32KM to Shah Alam, 36KM to Kuala Lumpur, 37KM to Port Klang"
+                },
+                {
+                    "icon": "assets/img/icons/icon-ev.svg",
+                    "description": "AC Cable for Solar PV system, LED Street Light, Rainwater Harvesting System, EV Charger and more sustainable features!"
+                }
+            ]
+        }
+        
+    ]
+}
